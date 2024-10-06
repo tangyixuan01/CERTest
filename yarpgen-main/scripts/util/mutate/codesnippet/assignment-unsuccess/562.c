@@ -1,0 +1,2 @@
+//seed:int
+*seed ^= v;

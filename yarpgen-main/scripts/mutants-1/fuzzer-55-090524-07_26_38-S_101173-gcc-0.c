@@ -1,0 +1,64 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-switch-snippet
+
+int a[6][9];
+char b;
+char c;
+short d;
+int e;
+int f;
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int z6LPEaxN = -2147483648;
+  int ISw_Yvlj = -2147483648;
+  a[1][3] = 8;
+  b = 1;
+  for (; b <= 5; b++)
+  {
+    d = 0;
+    for (; d <= 5; d++)
+    {
+      c = 0;
+      for (; c <= 5; c++)
+      {
+        a[b][c] = a[b][c + 2] & 216;
+      }
+
+    }
+
+  }
+
+  transparent_crc(ISw_Yvlj, "ISw_Yvlj", 1);
+  transparent_crc(z6LPEaxN, "z6LPEaxN", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  for (; e < 6; e++)
+  {
+    f = 0;
+    for (; f < 9; f++)
+    {
+      printf("%d\n", a[e][f]);
+      switch (z6LPEaxN)
+      {
+        case 5:
+          ISw_Yvlj = 1;
+          break;
+
+        case 6:
+          ISw_Yvlj = 2;
+          break;
+
+        case 7:
+          ISw_Yvlj = 3;
+          break;
+
+      }
+
+    }
+
+  }
+
+}
+

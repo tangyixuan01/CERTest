@@ -1,0 +1,66 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-switch-snippet -> insert-if-snippet -> insert-if-snippet -> insert-if-snippet
+
+int a[28];
+int b;
+void abort();
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  char EyCcqtvX = (signed char)-13;
+  int hPY4rfis = -65286716;
+  if (!EyCcqtvX)
+    hPY4rfis = 1;
+  int YuL0CGhS = 2147483647;
+  int Men83pCo = 2147483647;
+  int z1bBDKPZ = -2147483648;
+  int v5342tQT = -256576901;
+  int fIGTYw9N = -2147483648;
+  int aOk9cLTM = 1514057528;
+  a[4] = 1;
+  switch (aOk9cLTM)
+    case 111:
+    case 222:
+    case 44:
+    return 0;
+
+
+
+
+  int c = 1;
+  for (; b < 8; b++)
+  {
+    if (a[b])
+    {
+      if (~YuL0CGhS)
+      {
+        Men83pCo = 0;
+        L:
+        ;
+
+      }
+      c = 0;
+    }
+  }
+
+  transparent_crc(aOk9cLTM, "aOk9cLTM", 1);
+  transparent_crc(fIGTYw9N, "fIGTYw9N", 1);
+  transparent_crc(v5342tQT, "v5342tQT", 1);
+  transparent_crc(z1bBDKPZ, "z1bBDKPZ", 1);
+  transparent_crc(Men83pCo, "Men83pCo", 1);
+  transparent_crc(YuL0CGhS, "YuL0CGhS", 1);
+  transparent_crc(hPY4rfis, "hPY4rfis", 1);
+  transparent_crc(EyCcqtvX, "EyCcqtvX", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  if (c)
+  {
+    if (!(~4294967295UL))
+      for (; z1bBDKPZ < 1; z1bBDKPZ++)
+      fIGTYw9N = ((v5342tQT >= 2) || (1 >> v5342tQT)) ? (0) : (v5342tQT);
+
+    abort();
+  }
+}
+

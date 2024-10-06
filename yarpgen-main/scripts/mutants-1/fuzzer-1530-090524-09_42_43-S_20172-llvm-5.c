@@ -1,0 +1,155 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-assignment-snippet -> insert-if-snippet -> insert-for-snippet -> insert-for-snippet -> insert-assignment-snippet -> insert-for-snippet
+
+int printf(const char *, ...);
+int a[2];
+int b = 1;
+int c = 1;
+int e = 1;
+int f;
+int g;
+int h;
+int n;
+int o;
+int r;
+short d;
+short q;
+volatile int j;
+int fn1(int p)
+{
+  int LRsSC3_Q = -357827706;
+  int _WgtLjG6 = 2147483647;
+  int VBbgz2LK = -2147483648;
+  VBbgz2LK = ((_WgtLjG6 >= 0) || LRsSC3_Q) ? (0) : (_WgtLjG6);
+  transparent_crc(VBbgz2LK, "VBbgz2LK", 1);
+  transparent_crc(_WgtLjG6, "_WgtLjG6", 1);
+  transparent_crc(LRsSC3_Q, "LRsSC3_Q", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return p;
+}
+
+int fn2(unsigned short p1, int p2)
+{
+  int Bj0OxsKg = 2147483647;
+  int frWM2zLw = 837915296;
+  int COY3jfMa = -2147483648;
+  char ELf9q_Ik = (signed char)-7;
+  char v5rgyTBk = (signed char)127;
+  long  zaKWtbcI = -9223372036854775807LL;
+  long * vdUjqnCL = &zaKWtbcI;
+  int umYq38tD = 2147483647;
+  if (umYq38tD)
+    *vdUjqnCL = 4073709551611;
+  transparent_crc(umYq38tD, "umYq38tD", 1);
+  transparent_crc(v5rgyTBk, "v5rgyTBk", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  for (; ELf9q_Ik != 3; ELf9q_Ik = ELf9q_Ik + 7)
+  {
+    COY3jfMa = v5rgyTBk & COY3jfMa;
+    frWM2zLw = 1 + ((Bj0OxsKg & 2) == Bj0OxsKg);
+    if (COY3jfMa)
+      break;
+  }
+
+  transparent_crc(ELf9q_Ik, "ELf9q_Ik", 1);
+  transparent_crc(COY3jfMa, "COY3jfMa", 1);
+  transparent_crc(frWM2zLw, "frWM2zLw", 1);
+  transparent_crc(Bj0OxsKg, "Bj0OxsKg", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return (p2 || (p1 >> 1)) ? (p1) : (p1 << 1);
+}
+
+void fn3(int p)
+{
+  int V8h4TUny = 2147483647;
+  int JiPZjATC = 414388051;
+  int NxkYvIgn = -1998249129;
+  int xgSR32kH = 2147483647;
+  short wtb7mGkI = (short)32767;
+  int cFRlkzgG = 1935330131;
+  int o8x9uMaG = -236784081;
+  volatile int Ub6IWzef = 1756438342;
+  q = fn2(e, 0);
+  if (fn1(q))
+  {
+    for (NxkYvIgn = -1; V8h4TUny >= 0; V8h4TUny = NxkYvIgn)
+      if (JiPZjATC)
+      break;
+
+    r = (g = r != 1);
+  }
+  transparent_crc(Ub6IWzef, "Ub6IWzef", 1);
+  transparent_crc(o8x9uMaG, "o8x9uMaG", 1);
+  transparent_crc(cFRlkzgG, "cFRlkzgG", 1);
+  transparent_crc(wtb7mGkI, "wtb7mGkI", 1);
+  transparent_crc(xgSR32kH, "xgSR32kH", 1);
+  transparent_crc(NxkYvIgn, "NxkYvIgn", 1);
+  transparent_crc(JiPZjATC, "JiPZjATC", 1);
+  transparent_crc(V8h4TUny, "V8h4TUny", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  if (fn2(p && fn1(0), c))
+  {
+    c = 4;
+    n = (o = (n) ? (0) : (n + 1));
+    for (; o;)
+    {
+      (j) ? (0) : (j);
+    }
+
+    g = 0;
+    for (; xgSR32kH >= 0; xgSR32kH--)
+    {
+      wtb7mGkI = 0;
+      for (; wtb7mGkI <= 3; wtb7mGkI++)
+      {
+        o8x9uMaG = 0;
+        for (; o8x9uMaG <= 3; o8x9uMaG++)
+          Ub6IWzef &= 5;
+
+      }
+
+      if (cFRlkzgG)
+        break;
+    }
+
+  }
+}
+
+int fn4()
+{
+  if (b)
+  {
+    for (;; b++)
+    {
+      if (fn1(1))
+      {
+        fn3(1);
+        fn3(0);
+        if ((d = c) | fn2(h, 0))
+        {
+          return 0;
+        }
+      }
+      else
+      {
+        f = g;
+        h = fn1(0);
+        e = (c = 0);
+      }
+    }
+
+  }
+  return 0;
+}
+
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  a[0] = 1;
+  fn4();
+  printf("%d\n", a[d]);
+  return 0;
+}
+

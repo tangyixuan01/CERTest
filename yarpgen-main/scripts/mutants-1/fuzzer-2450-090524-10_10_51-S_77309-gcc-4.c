@@ -1,0 +1,89 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-assignment-snippet -> insert-while-snippet -> insert-while-snippet -> insert-switch-snippet -> insert-switch-snippet
+
+int a;
+int b;
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int TyHwij5P = -2147483648;
+  int DPWFdrEC = -919589966;
+  int  v5XxRq_f = -439203743;
+  int * mAl9yD8S = &v5XxRq_f;
+  unsigned char s1azqhTj = (unsigned char)0;
+  int Fj8yJOmI = -2147483648;
+  int HNDc3P1K = 2147483647;
+  long lWKqgHiE = 3900062068853937327LL;
+  int WYzsA2N6 = 2147483647;
+  long eoAPjqs1 = 9223372036854775807LL;
+  switch (s1azqhTj)
+  {
+    case 0x95:
+      *mAl9yD8S = s1azqhTj - 0x91;
+      break;
+
+    case 0x80:
+
+    case 0x81:
+
+    case 0x82:
+      *mAl9yD8S = s1azqhTj - 0x80;
+      break;
+
+    default:
+      *mAl9yD8S = 0;
+      break;
+
+  }
+
+  int T8hP9CLU = 2147483647;
+  int eWNaHT0O = 1650003444;
+  signed dRyFbf5h = 1;
+  int pvkYCmHU = -2147483648;
+  long c = 1 % (2 ^ b);
+  c = (-c) & (~((~(b ^ (~b))) || a));
+  if (c >= 0)
+  {
+    __builtin_abort();
+    eWNaHT0O = dRyFbf5h | (T8hP9CLU > pvkYCmHU);
+    switch (TyHwij5P)
+    {
+      case 5:
+        DPWFdrEC = 1;
+        break;
+
+      case 6:
+        DPWFdrEC = 2;
+        break;
+
+      case 7:
+        DPWFdrEC = 3;
+        break;
+
+    }
+
+    while ((HNDc3P1K > 0) < (~HNDc3P1K))
+      Fj8yJOmI++;
+
+    while (lWKqgHiE--)
+      *((char *) (eoAPjqs1++)) = WYzsA2N6;
+
+  }
+  transparent_crc(pvkYCmHU, "pvkYCmHU", 1);
+  transparent_crc(dRyFbf5h, "dRyFbf5h", 1);
+  transparent_crc(eWNaHT0O, "eWNaHT0O", 1);
+  transparent_crc(T8hP9CLU, "T8hP9CLU", 1);
+  transparent_crc(eoAPjqs1, "eoAPjqs1", 1);
+  transparent_crc(WYzsA2N6, "WYzsA2N6", 1);
+  transparent_crc(lWKqgHiE, "lWKqgHiE", 1);
+  transparent_crc(HNDc3P1K, "HNDc3P1K", 1);
+  transparent_crc(Fj8yJOmI, "Fj8yJOmI", 1);
+  transparent_crc(s1azqhTj, "s1azqhTj", 1);
+  transparent_crc(DPWFdrEC, "DPWFdrEC", 1);
+  transparent_crc(TyHwij5P, "TyHwij5P", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return 0;
+}
+

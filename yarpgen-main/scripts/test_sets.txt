@@ -1,0 +1,175 @@
+###############################################################################
+#
+# Copyright (c) 2016-2023, Intel Corporation
+# Copyright (c) 2019-2020, University of Utah
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+###############################################################################
+# README:
+# Testing configuration file
+# You can start single-line comment with #. Don't use indentation at the beginning of line!
+# Config can contain only one "Compiler specs" and "Testing sets" blocks!
+# You should always specify "Compiler specs" before "Testing sets"!
+###############################################################################
+
+Compiler specs:
+# Spec name - codename for compiler and its options
+# Executable name - name of compiler binary file. It should be in your PATH
+# Common arguments - arguments which will be passed to every compiler run # clang -fopenmp-simd
+# Arch prefix - prefix for specifying different architectures (it will be concatenated with Compiler arch value) 
+
+# Spec name | C++ executable name | C executable name | Common arguments                                            | Arch prefix
+gcc         | g++                 | /home/yixuan/compiler/gcc-13.2.0/build/bin/gcc              | -fPIC -mcmodel=large -w -fpermissive  | -march=
+clang       | clang++             | /usr/lib/llvm-18/bin/clang          | -fPIC -mcmodel=large -w  | -march=
+gccold      | g++                 | /home/jwzeng/compilers/gcc/gcc-4.8.5/bin/gcc              | -w -fPIC                              | -march=
+clangold    | clang++             | /home/jwzeng/compilers/llvm/llvm-4.0.0/bin/clang            | -w -fPIC                              | -march=
+polly       | clang++             | clang | -fPIC -mcmodel=large -w -fopenmp-simd -mllvm -polly -mllvm -polly-vectorizer=stripmine | -march=
+# Ubsan is clang or gcc with sanitizer options. It is used for generator check.
+# If you want to use sanitizer with -m32, please make sure that you pass "-rtlib=compiler-rt -lgcc_s" options if you are using clang.
+# Otherwise it may fail with "undefined reference to `__mulodi4'" error message.
+# See https://bugs.llvm.org//show_bug.cgi?id=16404 for more information
+# Note that -fpermissive option for gcc is required to allow reduction of ubsan_gcc fails.
+# Otherwise result of reducion is empty program.
+ubsan_clang | clang++             | /home/jwzeng/compilers/llvm/llvm-trunk-20230924/bin/clang | -fPIC -mcmodel=large -fsanitize=undefined -fno-sanitize-recover=undefined -Werror=implicitly-unsigned-literal | -march=
+ubsan_gcc   | g++                 | /home/jwzeng/compilers/gcc/gcc-trunk-20231007/bin/gcc     | -fPIC -mcmodel=large -fsanitize=undefined -fno-sanitize-recover=undefined -fpermissive | -march=
+icc         | icpc                | icc               | -fPIC -mcmodel=large -w -diag-disable=10441                    | -x
+icx         | icpx                | icx               | -fPIC -mcmodel=large -w -fopenmp-simd -mllvm -vec-threshold=0  | -march=
+dpcpp       | clang++             | clang             | -fsycl -w                                                      | -march=
+ispc        | ispc-proxy          | ispc-proxy        | -woff -fPIC -mcmodel=large                                     | --target=
+tcc         | tcc                 | /home/jwzeng/compilers/tcc/tcc-trunk-20230917/bin/tcc   | -w                       | -march=
+
+Testing sets:
+# Set name - codename for testing set
+# Spec name - codename of spec, it should be described in Compiler specs
+# Arguments - compiler options for this testing set
+# Compiler arch - architecture which will be passed to compiler
+# Sde arch - architecture which will be passed to SDE
+
+# Set name       | Spec name   | Arguments | Compiler arch  | Sde arch
+ubsan_clang_o0   | ubsan_clang | -O0       |                |
+#ubsan_clang_o1   | ubsan_clang | -O1       |                |
+ubsan_clang_o2   | ubsan_clang | -O2       |                |
+#ubsan_clang_o3   | ubsan_clang | -O3       |                |
+#ubsan_clang_os   | ubsan_clang | -Os       |                |
+ubsan_gcc_o0     | ubsan_gcc   | -O0       |                |
+#ubsan_gcc_o1     | ubsan_gcc   | -O1       |                |
+ubsan_gcc_o2     | ubsan_gcc   | -O2       |                |
+#ubsan_gcc_o3     | ubsan_gcc   | -O3       |                |
+#ubsan_gcc_os     | ubsan_gcc   | -Os       |                |
+
+gcc_no_opt        | gcc       | -O0       |                |
+gcc_opt_o1        | gcc       | -O1       |                |
+gcc_opt_o2        | gcc       | -O2       |                |
+gcc_opt_o3        | gcc       | -O3       |                |
+gcc_opt_os        | gcc       | -Os       |                |
+gcc_wsm_opt      | gcc       | -O3       | westmere       | wsm
+gcc_ivb_opt      | gcc       | -O3       | ivybridge      | ivb
+gcc_hsw_opt      | gcc       | -O3       | haswell        | hsw
+#gcc_bdw_opt      | gcc       | -O3       | broadwell      | bdw
+#gcc_knl_no_opt   | gcc       | -O0       | knl            | knl
+#gcc_knl_opt      | gcc       | -O3       | knl            | knl
+#gcc_skx_no_opt   | gcc       | -O0       | skylake-avx512 | skx
+#gcc_skx_opt      | gcc       | -O3       | skylake-avx512 | skx
+#gcc_icx_no_opt   | gcc       | -O0       | icelake-server | icx
+#gcc_icx_opt      | gcc       | -O3       | icelake-server | icx
+#gcc_tgl_no_opt   | gcc       | -O0       | tigerlake      | tgl
+#gcc_tgl_opt      | gcc       | -O3       | tigerlake      | tgl
+#gcc_spr_no_opt   | gcc       | -O0       | sapphirerapids | spr
+#gcc_spr_opt      | gcc       | -O3       | sapphirerapids | spr
+
+gccold_no_opt     | gccold    | -O0       |                |
+gccold_opt_o1     | gccold    | -O1       |                |
+gccold_opt_o2     | gccold    | -O2       |                |
+gccold_opt_o3     | gccold    | -O3       |                |
+gccold_opt_os     | gccold    | -Os       |                |
+
+clang_no_opt      | clang     | -O0       |                |
+clang_opt_o1      | clang     | -O1       |                |
+clang_opt_o2      | clang     | -O2       |                |
+clang_opt_o3      | clang     | -O3       |                |
+clang_opt_os      | clang     | -Os       |                |
+#clang_knl_no_opt | clang     | -O0       | knl            | knl
+#clang_knl_opt    | clang     | -O3       | knl            | knl
+#clang_skx_no_opt | clang     | -O0       | skx            | skx
+#clang_skx_opt    | clang     | -O3       | skx            | skx
+#clang_icx_no_opt | clang     | -O0       | icelake-server | icx
+#clang_icx_opt    | clang     | -O3       | icelake-server | icx
+#clang_tgl_no_opt | clang     | -O0       | tigerlake      | tgl
+#clang_tgl_opt    | clang     | -O3       | tigerlake      | tgl
+#clang_spr_no_opt | clang     | -O0       | sapphirerapids | spr
+#clang_spr_opt    | clang     | -O3       | sapphirerapids | spr
+
+clangold_no_opt   | clangold  | -O0       |                |
+clangold_opt_o1   | clangold  | -O1       |                |
+clangold_opt_o2   | clangold  | -O2       |                |
+clangold_opt_o3   | clangold  | -O3       |                |
+clangold_opt_os   | clangold  | -Os       |                |
+
+#polly_no_opt     | polly     | -O0       |                |
+#polly_opt        | polly     | -O3       |                |
+#polly_knl_no_opt | polly     | -O0       | knl            | knl
+#polly_knl_opt    | polly     | -O3       | knl            | knl
+#polly_skx_no_opt | polly     | -O0       | skx            | skx
+#polly_skx_opt    | polly     | -O3       | skx            | skx
+#polly_icx_no_opt | polly     | -O0       | icelake-server | icx
+#polly_icx_opt    | polly     | -O3       | icelake-server | icx
+#polly_tgl_no_opt | polly     | -O0       | tigerlake      | tgl
+#polly_tgl_opt    | polly     | -O3       | tigerlake      | tgl
+#polly_spr_no_opt | polly     | -O0       | sapphirerapids | spr
+#polly_spr_opt    | polly     | -O3       | sapphirerapids | spr
+
+#icc_no_opt       | icc       | -O0       |                |
+#icc_opt          | icc       | -O3       |                |
+#icc_knl_no_opt   | icc       | -O0       | MIC-AVX512     | knl
+#icc_knl_opt      | icc       | -O3       | MIC-AVX512     | knl
+#icc_skx_no_opt   | icc       | -O0       | CORE-AVX512    | skx
+#icc_skx_opt      | icc       | -O3       | CORE-AVX512    | skx
+
+icx_no_opt        | icx       | -O0       |                |
+icx_opt_o1        | icx       | -O1       |                |
+icx_opt_o2        | icx       | -O2       |                |
+icx_opt_o3        | icx       | -O3       |                |
+icx_opt_os        | icx       | -Os       |                |
+#icx_skx_no_opt   | icx       | -O0       | skx            | skx
+#icx_skx_opt      | icx       | -O3       | skx            | skx
+#icx_icx_no_opt   | icx       | -O0       | icelake-server | icx
+#icx_icx_opt      | icx       | -O3       | icelake-server | icx
+#icx_tgl_no_opt   | icx       | -O0       | tigerlake      | tgl
+#icx_tgl_opt      | icx       | -O3       | tigerlake      | tgl
+
+#dpcpp_no_opt     | dpcpp     | -O0       |                |
+#dpcpp_opt        | dpcpp     | -O3       |                |
+#dpcpp_cpu_no_opt     | dpcpp     | -O0 -DCPU      |                |
+#dpcpp_cpu_opt        | dpcpp     | -O3 -DCPU      |                |
+#dpcpp_gpu_no_opt     | dpcpp     | -O0 -DGPU      |                |
+#dpcpp_gpu_opt        | dpcpp     | -O3 -DGPU      |                |
+
+#ispc_sse_no_opt           | ispc   | -O0       | sse2-i32x4       |
+#ispc_avx2_i32x8_opt       | ispc   | -O2       | avx2-i32x8       |
+#ispc_avx2_i32x16_opt      | ispc   | -O2       | avx2-i32x16      |
+#ispc_avx2_i64x4_opt       | ispc   | -O2       | avx2-i64x4       |
+#ispc_avx512skx-i32x16_opt | ispc   | -O2       | avx512skx-i32x16 | skx
+#ispc_avx512skx-i8x64_opt  | ispc   | -O2       | avx512skx-i8x64  | skx
+#ispc_avx512skx-i16x32_opt | ispc   | -O2       | avx512skx-i16x32 | skx
+
+tcc_no_opt  | tcc  |   -O0   |     |
+tcc_opt_o1  | tcc  |   -O1   |     |
+tcc_opt_o2  | tcc  |   -O2   |     |
+tcc_opt_o3  | tcc  |   -O3   |     |
+tcc_opt_os  | tcc  |   -Os   |     |
+
+Options for statistics' capture:
+#Spec name  | Arguments
+ubsan_clang | -save-stats -Xclang -print-stats
+clang       | -save-stats -Xclang -print-stats

@@ -1,0 +1,61 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-switch-snippet -> insert-for-snippet -> insert-while-snippet
+
+int printf(const char *, ...);
+short a;
+volatile unsigned b;
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int AKPG70f4 = -2147483648;
+  int Zg3f0NId = 2147483647;
+  int lMNUhRVq = 2147483647;
+  int  LJtcin8M = -511995299;
+  int * thzcFaQX = &LJtcin8M;
+  unsigned char Ibw9lCqr = (unsigned char)255;
+  short *c = &a;
+  lbl:
+  b--;
+
+  (*c)--;
+  if (a)
+  {
+    switch (Ibw9lCqr)
+    {
+      case 0x95:
+        *thzcFaQX = Ibw9lCqr - 0x91;
+        break;
+
+      case 0x80:
+
+      while ((Zg3f0NId > 0) < (~Zg3f0NId))
+        AKPG70f4++;
+
+      case 0x81:
+
+      case 0x82:
+        *thzcFaQX = Ibw9lCqr - 0x80;
+        break;
+
+      default:
+        *thzcFaQX = 0;
+        break;
+
+    }
+
+    for (; lMNUhRVq <= 4; lMNUhRVq++)
+      ;
+
+    goto lbl;
+  }
+  printf("%d\n", b);
+  transparent_crc(Ibw9lCqr, "Ibw9lCqr", 1);
+  transparent_crc(lMNUhRVq, "lMNUhRVq", 1);
+  transparent_crc(Zg3f0NId, "Zg3f0NId", 1);
+  transparent_crc(AKPG70f4, "AKPG70f4", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return 0;
+}
+

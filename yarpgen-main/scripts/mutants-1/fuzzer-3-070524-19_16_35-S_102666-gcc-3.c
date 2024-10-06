@@ -1,0 +1,82 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-if-snippet -> insert-for-snippet -> insert-if-snippet -> insert-for-snippet
+
+int main(void)
+{
+  platform_main_begin();
+  crc32_gentab();
+  int E3eg0Zot = -351177436;
+  int wJ9NkeO3 = -2147483648;
+  int GQ0qEZPL = -2147483648;
+  int GeEM4uYL = 710206191;
+  int Hn2x0VKY = 2147483647;
+  int zvufqG4U = 710444379;
+  char jHq_3Vkv = (signed char)57;
+  unsigned long A4RpOSrf = 14428945335941040768ULL;
+  int YtdbPH6O = -2147483648;
+  char W5Qs4TKB = (signed char)-38;
+  int RoyqC491 = -2147483648;
+  short RGXkEmpJ = (short)-32768;
+  char CfqSPumQ = (signed char)-107;
+  int PeR8FAiu = 653288491;
+  char zHX52jcw = (signed char)87;
+  int yqmHWUDK = 2147483647;
+  for (unsigned a = 0, b = 0; a < 6; a += 1, b += 2)
+  {
+    if (b < a)
+    {
+      for (YtdbPH6O = 0; YtdbPH6O < 8; YtdbPH6O++)
+      {
+        char ap = (CfqSPumQ % yqmHWUDK) + RGXkEmpJ;
+        if (jHq_3Vkv)
+        {
+          printf("%lu\n", A4RpOSrf);
+          return 0;
+          for (; wJ9NkeO3 < 10; wJ9NkeO3++)
+          {
+            int g = (Hn2x0VKY % ((~0) && E3eg0Zot)) && g;
+            int h = 0;
+            int i = 0;
+            if (GQ0qEZPL)
+              h = Hn2x0VKY;
+            if (h > (-2021603546))
+              GeEM4uYL = zvufqG4U / i;
+            Hn2x0VKY = h;
+          }
+
+        }
+        unsigned aq = (~0x1F) & (W5Qs4TKB % ((7 * (~ap)) ^ PeR8FAiu));
+        if ((aq < 1027) && RoyqC491)
+          CfqSPumQ = ((1958 | zHX52jcw) + 15) & 15;
+      }
+
+      return 1;
+    }
+  }
+
+  return 0;
+  transparent_crc(yqmHWUDK, "yqmHWUDK", 1);
+  transparent_crc(zHX52jcw, "zHX52jcw", 1);
+  transparent_crc(PeR8FAiu, "PeR8FAiu", 1);
+  transparent_crc(CfqSPumQ, "CfqSPumQ", 1);
+  transparent_crc(RGXkEmpJ, "RGXkEmpJ", 1);
+  transparent_crc(RoyqC491, "RoyqC491", 1);
+  transparent_crc(W5Qs4TKB, "W5Qs4TKB", 1);
+  transparent_crc(YtdbPH6O, "YtdbPH6O", 1);
+  transparent_crc(A4RpOSrf, "A4RpOSrf", 1);
+  transparent_crc(jHq_3Vkv, "jHq_3Vkv", 1);
+  transparent_crc(zvufqG4U, "zvufqG4U", 1);
+  transparent_crc(Hn2x0VKY, "Hn2x0VKY", 1);
+  transparent_crc(GeEM4uYL, "GeEM4uYL", 1);
+  transparent_crc(GQ0qEZPL, "GQ0qEZPL", 1);
+  transparent_crc(wJ9NkeO3, "wJ9NkeO3", 1);
+  transparent_crc(E3eg0Zot, "E3eg0Zot", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  if (""['\0'])
+  {
+    #pragma message "Gotcha!"
+    __builtin_abort();
+  }
+}
+

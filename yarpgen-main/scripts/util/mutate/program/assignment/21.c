@@ -1,0 +1,2 @@
+//val:unsigned long int  ptr[0]:unsigned char  ptr[1]:unsigned char  ptr[2]:unsigned char  ptr[3]:unsigned char  
+*val = (((((unsigned long int) ptr[0]) << 24) | (((unsigned long int) ptr[1]) << 16)) | (((unsigned long int) ptr[2]) << 8)) | ptr[3];

@@ -1,0 +1,153 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-while-snippet -> insert-assignment-snippet -> insert-for-snippet -> insert-for-snippet -> insert-if-snippet -> insert-while-snippet -> insert-switch-snippet -> insert-while-snippet -> insert-while-snippet -> insert-for-snippet -> insert-assignment-snippet
+
+int main(void)
+{
+  platform_main_begin();
+  crc32_gentab();
+  int  mq01tBip = 2147483647;
+  int * RTUsZ02A = &mq01tBip;
+  int ** lYA1CsWS = &RTUsZ02A;
+  short NMqnsgX6 = (short)-11462;
+  int g6JE5uAQ = -2147483648;
+  int wYueOXzM = 1011698744;
+  int tg1q9HIp = 2147483647;
+  int dQBNhiI2 = 1176126798;
+  int GH3Pr6is = 2147483647;
+  int o4HbFVUf = 2147483647;
+  int kY0rHcS8 = 2147483647;
+  long IBe67KSs = -6994346849742847892LL;
+  int x3LcHqBM = 1108571967;
+  int CcGJVFzm = 138584164;
+  int q8Rl4GwJ = 1443881572;
+  int XUbP2Yu0 = 528189338;
+  int D4c1jlaW = 2147483647;
+  int TIAG2vYd = -2147483648;
+  int niApzIEZ = 1658899366;
+  volatile int zivHbxI8 = -174182736;
+  volatile int qBzfhsEk = 2147483647;
+  int WI4tOXHr = 1025420480;
+  int o8btk_nS = -44135111;
+  char lb38hPfN = (signed char)-128;
+  volatile int OfKcuJ0x = 1373045105;
+  int aEIGQUkD = 1444936939;
+  int r3VmikBG = 631528081;
+  int nkeor95y = -188430036;
+  int NDa4G3d7 = 1096347190;
+  unsigned long long int i3k_RBLa = 0ULL;
+  unsigned int _QH38GAK = 0U;
+  int CXOz3K2g = 651519048;
+  int owXgdJib = 78227269;
+  while (IBe67KSs > 0xffffffffU)
+  {
+    x3LcHqBM += 4;
+    IBe67KSs /= ((10 * 10) * 10) * 10;
+  }
+
+  volatile int a = 0;
+  long b = 2147483648L;
+  int c = a % 2;
+  int x = (((int) (-b)) + c) % (-2147483647);
+  if (x != (-1))
+  {
+    while (1)
+    {
+      int m = owXgdJib;
+      while (m)
+        m /= 2;
+
+      while ((kY0rHcS8 > 0) < (~kY0rHcS8))
+        o4HbFVUf++;
+
+      break;
+    }
+
+    __builtin_abort();
+    for (NDa4G3d7 = 15; NDa4G3d7 < 22; NDa4G3d7 += 5)
+      if (OfKcuJ0x)
+    {
+      nkeor95y--;
+      r3VmikBG--;
+      while (XUbP2Yu0)
+        D4c1jlaW++;
+
+      lb38hPfN--;
+      if (nkeor95y)
+      {
+        WI4tOXHr = (r3VmikBG < 0) || ((r3VmikBG >= 0) > r3VmikBG);
+        for (; dQBNhiI2 >= 0; dQBNhiI2--)
+        {
+          wYueOXzM = tg1q9HIp;
+          tg1q9HIp = (g6JE5uAQ ^ (g6JE5uAQ && GH3Pr6is)) && 1;
+        }
+
+        *(*lYA1CsWS) = NMqnsgX6;
+        o8btk_nS = (aEIGQUkD ^= 1);
+      }
+      aEIGQUkD = 0;
+      for (; qBzfhsEk < 2; qBzfhsEk++)
+        for (; zivHbxI8 < 5; zivHbxI8++)
+        ;
+
+
+    }
+    else
+      lb38hPfN = 0;
+
+    if (TIAG2vYd > 200)
+    {
+      switch (CcGJVFzm)
+      {
+        case 5:
+          q8Rl4GwJ = 1;
+          break;
+
+        case 6:
+          q8Rl4GwJ = 2;
+          break;
+
+        case 7:
+          q8Rl4GwJ = 3;
+          break;
+
+      }
+
+      niApzIEZ = 0;
+    }
+  }
+  i3k_RBLa = (_QH38GAK != CXOz3K2g) ? (CXOz3K2g) : ((long) _QH38GAK);
+  transparent_crc(owXgdJib, "owXgdJib", 1);
+  transparent_crc(CXOz3K2g, "CXOz3K2g", 1);
+  transparent_crc(_QH38GAK, "_QH38GAK", 1);
+  transparent_crc(i3k_RBLa, "i3k_RBLa", 1);
+  transparent_crc(NDa4G3d7, "NDa4G3d7", 1);
+  transparent_crc(nkeor95y, "nkeor95y", 1);
+  transparent_crc(r3VmikBG, "r3VmikBG", 1);
+  transparent_crc(aEIGQUkD, "aEIGQUkD", 1);
+  transparent_crc(OfKcuJ0x, "OfKcuJ0x", 1);
+  transparent_crc(lb38hPfN, "lb38hPfN", 1);
+  transparent_crc(o8btk_nS, "o8btk_nS", 1);
+  transparent_crc(WI4tOXHr, "WI4tOXHr", 1);
+  transparent_crc(qBzfhsEk, "qBzfhsEk", 1);
+  transparent_crc(zivHbxI8, "zivHbxI8", 1);
+  transparent_crc(niApzIEZ, "niApzIEZ", 1);
+  transparent_crc(TIAG2vYd, "TIAG2vYd", 1);
+  transparent_crc(D4c1jlaW, "D4c1jlaW", 1);
+  transparent_crc(XUbP2Yu0, "XUbP2Yu0", 1);
+  transparent_crc(q8Rl4GwJ, "q8Rl4GwJ", 1);
+  transparent_crc(CcGJVFzm, "CcGJVFzm", 1);
+  transparent_crc(x3LcHqBM, "x3LcHqBM", 1);
+  transparent_crc(IBe67KSs, "IBe67KSs", 1);
+  transparent_crc(kY0rHcS8, "kY0rHcS8", 1);
+  transparent_crc(o4HbFVUf, "o4HbFVUf", 1);
+  transparent_crc(GH3Pr6is, "GH3Pr6is", 1);
+  transparent_crc(dQBNhiI2, "dQBNhiI2", 1);
+  transparent_crc(tg1q9HIp, "tg1q9HIp", 1);
+  transparent_crc(wYueOXzM, "wYueOXzM", 1);
+  transparent_crc(g6JE5uAQ, "g6JE5uAQ", 1);
+  transparent_crc(NMqnsgX6, "NMqnsgX6", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return 0;
+}
+

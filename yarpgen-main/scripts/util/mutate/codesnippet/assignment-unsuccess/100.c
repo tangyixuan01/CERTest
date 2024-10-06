@@ -1,0 +1,2 @@
+//argv:char **
+argv = margv;

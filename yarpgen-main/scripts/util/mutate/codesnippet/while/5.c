@@ -1,0 +1,3 @@
+//a:int
+while (a)
+  ;

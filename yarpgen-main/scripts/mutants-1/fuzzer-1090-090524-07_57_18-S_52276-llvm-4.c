@@ -1,0 +1,89 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-assignment-snippet -> insert-switch-snippet -> insert-assignment-snippet -> insert-if-snippet -> insert-switch-snippet
+
+int a;
+int b;
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int  jep59MAE = 2147483647;
+  int * Q6KZ5TFa = &jep59MAE;
+  unsigned char uPBvtMA7 = (unsigned char)0;
+  short HxhdVKNz = (short)32767;
+  char E47ehr3P = (signed char)-128;
+  int QlC_N6x5 = -2147483648;
+  int z1JaepLS = 2147483647;
+  unsigned vs_GKzgb = 833725192U;
+  int  Zagu6N29 = 2147483647;
+  int * MRQlnTuj = &Zagu6N29;
+  unsigned char hqfkouEC = (unsigned char)69;
+  int  oHpCrGK6 = 96065913;
+  int * XwnQ7m14 = &oHpCrGK6;
+  int qE5rL9S0 = 1746623785;
+  z1JaepLS = (1 ^ vs_GKzgb) / QlC_N6x5;
+  while ((a > 0) < (~a))
+  {
+    if (E47ehr3P)
+    {
+      int e = HxhdVKNz / 4;
+      switch (uPBvtMA7)
+      {
+        case 0x95:
+          *Q6KZ5TFa = uPBvtMA7 - 0x91;
+          break;
+
+        case 0x80:
+
+        case 0x81:
+
+        case 0x82:
+          *Q6KZ5TFa = uPBvtMA7 - 0x80;
+          break;
+
+        default:
+          *Q6KZ5TFa = 0;
+          break;
+
+      }
+
+      HxhdVKNz = e + 8;
+    }
+    b++;
+  }
+
+  switch (hqfkouEC)
+  {
+    case 0x95:
+      *MRQlnTuj = 0x01;
+      break;
+
+    case 0x80:
+
+    case 0x81:
+
+    case 0x82:
+      *MRQlnTuj = 0x00;
+      break;
+
+    default:
+      *MRQlnTuj = 0x05;
+      break;
+
+  }
+
+  transparent_crc(qE5rL9S0, "qE5rL9S0", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  *XwnQ7m14 = qE5rL9S0 & (-8);
+  transparent_crc(hqfkouEC, "hqfkouEC", 1);
+  transparent_crc(vs_GKzgb, "vs_GKzgb", 1);
+  transparent_crc(z1JaepLS, "z1JaepLS", 1);
+  transparent_crc(QlC_N6x5, "QlC_N6x5", 1);
+  transparent_crc(E47ehr3P, "E47ehr3P", 1);
+  transparent_crc(HxhdVKNz, "HxhdVKNz", 1);
+  transparent_crc(uPBvtMA7, "uPBvtMA7", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return 0;
+}
+

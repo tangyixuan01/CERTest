@@ -1,0 +1,45 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-if-snippet
+
+int printf(const char *, ...);
+long long a = 7108473123;
+int b;
+int c;
+int *d;
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int i21pXKo4 = 2147483647;
+  short Hyhsr2NX = (short)16855;
+  int EH8MRB_G = -1794432952;
+  long long e;
+  long long f;
+  e = a;
+  if (b)
+  {
+    printf("%d", c);
+    d = 0;
+    while (*d)
+    {
+      if (Hyhsr2NX)
+        for (; EH8MRB_G;)
+        i21pXKo4 = 0;
+
+      ;
+    }
+
+  }
+  f = 0x88582324C7C1E17B;
+  a = (~(-((e ^ f) ^ (~a)))) ^ (~18013);
+  transparent_crc(EH8MRB_G, "EH8MRB_G", 1);
+  transparent_crc(Hyhsr2NX, "Hyhsr2NX", 1);
+  transparent_crc(i21pXKo4, "i21pXKo4", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  if (a > (-8622102845723662559LL))
+  {
+    __builtin_abort();
+  }
+}
+

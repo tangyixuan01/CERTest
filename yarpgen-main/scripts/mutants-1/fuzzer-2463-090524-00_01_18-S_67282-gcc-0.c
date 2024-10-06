@@ -1,0 +1,49 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-while-snippet
+
+double A[64][64];
+double C[64][64];
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  short MXwYb9KG = (short)-32768;
+  short OIhleqFV = (short)23143;
+  short lPopS2ih = (short)-19684;
+  unsigned X98Amtp1 = 2351955592U;
+  int YkGOrB9N = -2147483648;
+  int tjL9QAOP = 1269692103;
+  while (MXwYb9KG)
+  {
+    if (tjL9QAOP)
+      MXwYb9KG = YkGOrB9N;
+    tjL9QAOP = 1;
+    YkGOrB9N = (OIhleqFV = (lPopS2ih) ? (0) : (X98Amtp1 % lPopS2ih));
+  }
+
+  int i;
+  int j;
+  int k;
+  transparent_crc(tjL9QAOP, "tjL9QAOP", 1);
+  transparent_crc(YkGOrB9N, "YkGOrB9N", 1);
+  transparent_crc(X98Amtp1, "X98Amtp1", 1);
+  transparent_crc(lPopS2ih, "lPopS2ih", 1);
+  transparent_crc(OIhleqFV, "OIhleqFV", 1);
+  transparent_crc(MXwYb9KG, "MXwYb9KG", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  for (i = 0; i < 64; i++)
+  {
+    for (j = 0; j < 64; j++)
+    {
+      for (k = 0; k < 64; k++)
+      {
+        C[i][j] = A[i][k];
+      }
+
+    }
+
+  }
+
+}
+

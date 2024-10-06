@@ -1,0 +1,11 @@
+bool
+char
+int
+float
+double
+string
+void
+struct
+class
+enum
+auto

@@ -1,0 +1,16 @@
+extern unsigned long long int seed;
+extern unsigned long long int seed;
+extern unsigned long long int seed;
+extern unsigned long long int seed;
+extern signed char var_20;
+extern unsigned long long int var_21;
+extern _Bool var_22;
+extern unsigned long long int var_23;
+extern unsigned long long int var_24;
+extern unsigned int var_25;
+extern int var_26;
+extern unsigned char var_27;
+extern signed char var_28;
+extern unsigned long long int var_29;
+extern short var_30;
+extern signed char var_31;

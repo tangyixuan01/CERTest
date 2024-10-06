@@ -1,0 +1,54 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-assignment-snippet -> insert-assignment-snippet
+
+int puts(const char *);
+void free(void *);
+void *malloc(unsigned long);
+struct Node
+{
+  struct Node *child;
+};
+void walk(struct Node *module, int cleanup)
+{
+  int bniDk0xU = 292589907;
+  int qb9eXBcj = -1417119104;
+  signed I6dZ7ntf = 0;
+  int NVPzAemb = -669034509;
+  int K71vT4eC = 2147483647;
+  int QRilAm3w = 1889275218;
+  unsigned NXEPwukp = 0U;
+  if (module == 0)
+  {
+    QRilAm3w = (1 ^ NXEPwukp) / K71vT4eC;
+    return;
+  }
+  if (!cleanup)
+  {
+    puts("No cleanup");
+    qb9eXBcj = I6dZ7ntf | (bniDk0xU > NVPzAemb);
+  }
+  walk(module->child, cleanup);
+  transparent_crc(NXEPwukp, "NXEPwukp", 1);
+  transparent_crc(QRilAm3w, "QRilAm3w", 1);
+  transparent_crc(K71vT4eC, "K71vT4eC", 1);
+  transparent_crc(NVPzAemb, "NVPzAemb", 1);
+  transparent_crc(I6dZ7ntf, "I6dZ7ntf", 1);
+  transparent_crc(qb9eXBcj, "qb9eXBcj", 1);
+  transparent_crc(bniDk0xU, "bniDk0xU", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  if (cleanup)
+  {
+    free(module);
+  }
+}
+
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  struct Node *node = malloc(sizeof(struct Node));
+  node->child = 0;
+  walk(node, 1);
+}
+

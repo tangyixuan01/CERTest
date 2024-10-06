@@ -1,0 +1,163 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-assignment-snippet -> insert-switch-snippet -> insert-switch-snippet -> insert-assignment-snippet -> insert-for-snippet -> insert-for-snippet -> insert-switch-snippet -> insert-if-snippet -> insert-for-snippet -> insert-switch-snippet -> insert-for-snippet -> insert-if-snippet
+
+int printf(const char *, ...);
+int a;
+int b[8] = {2, 0, 0, 0, 0, 0, 0, 0};
+int c[8];
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int nlwaxt3c = -2147483648;
+  int SxrCbtIW = -1069864264;
+  int ylPVg5Lt = -480260129;
+  int TsMq1b7Y = 2147483647;
+  int _CtTGZsI = -1066203123;
+  int WdqsiK6T = -962344941;
+  unsigned D_M2cCJt = 2751042311U;
+  unsigned TqkXSH9u = 4294967295U;
+  unsigned VzuBOt9Q = 0U;
+  int mKTqB3Cs = -2147483648;
+  int AZ2DxjNB = 1158924382;
+  int eT3hMjm9 = 190002357;
+  volatile int AykDiWKq = -2147483648;
+  int _gFT3elR = -324564217;
+  for (_gFT3elR = 0; _gFT3elR < 4; _gFT3elR++)
+  {
+    AykDiWKq = AykDiWKq + 3;
+    switch (WdqsiK6T)
+      case 111:
+      case 222:
+      case 44:
+      return 0;
+
+
+
+
+  }
+
+  int nr4qKZSh = 1687465538;
+  short NT1S6FjD = (short)32767;
+  char CJsX9aYN = (signed char)-36;
+  int q1B7pgSr = -1558454894;
+  int hp1VbFYN = 2147483647;
+  int YO3eyl58 = 350027332;
+  int radXKZCB = 2147483647;
+  int  Qz_iFE89 = -1913579856;
+  int * uLAK5xEH = &Qz_iFE89;
+  unsigned char NlSGHgb7 = (unsigned char)113;
+  int  rhesLYmb = -2147483648;
+  int * XD1rjve9 = &rhesLYmb;
+  unsigned char XpfaUyxt = (unsigned char)158;
+  int dfs_DQHn = -1981821824;
+  int G6piR0B4 = 706130454;
+  int d;
+  for (; a < 8; a++)
+  {
+    switch (XpfaUyxt)
+    {
+      if (AZ2DxjNB >= 0)
+        mKTqB3Cs |= 0x10000;
+      case 0x95:
+        *XD1rjve9 = 0x01;
+        break;
+
+      case 0x80:
+
+      case 0x81:
+
+      case 0x82:
+        *XD1rjve9 = 0x00;
+        break;
+
+      default:
+        *XD1rjve9 = 0x05;
+        break;
+
+      YO3eyl58 = (hp1VbFYN ^ radXKZCB) ^ (~q1B7pgSr);
+    }
+
+    switch (eT3hMjm9)
+      case 111:
+      case 222:
+      case 44:
+      return 0;
+
+
+
+
+    d = b[a] >> 1;
+    for (; CJsX9aYN; CJsX9aYN++)
+      NT1S6FjD = nr4qKZSh + 8;
+
+    G6piR0B4 &= (0x1F) ? (dfs_DQHn + G6piR0B4) : (dfs_DQHn);
+    for (D_M2cCJt = 0; D_M2cCJt < 2; D_M2cCJt++)
+      for (VzuBOt9Q = 0; VzuBOt9Q < 2; VzuBOt9Q++)
+      if ((++TqkXSH9u) < D_M2cCJt)
+      __builtin_abort();
+
+
+    c[a] = d != 0;
+  }
+
+  printf("%d\n", c[0]);
+  transparent_crc(G6piR0B4, "G6piR0B4", 1);
+  transparent_crc(dfs_DQHn, "dfs_DQHn", 1);
+  transparent_crc(XpfaUyxt, "XpfaUyxt", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  switch (NlSGHgb7)
+  {
+    case 0x95:
+      *uLAK5xEH = NlSGHgb7 - 0x91;
+      break;
+
+    case 0x80:
+
+    if (nlwaxt3c)
+      --SxrCbtIW;
+    case 0x81:
+
+    for (ylPVg5Lt = 0; ylPVg5Lt < 16; ylPVg5Lt++)
+      for (_CtTGZsI = ylPVg5Lt, TsMq1b7Y = 0; TsMq1b7Y < 3; TsMq1b7Y++)
+      if (_CtTGZsI & 1)
+      _CtTGZsI = 0;
+
+
+    case 0x82:
+      *uLAK5xEH = NlSGHgb7 - 0x80;
+      break;
+
+    default:
+      *uLAK5xEH = 0;
+      break;
+
+  }
+
+  transparent_crc(NlSGHgb7, "NlSGHgb7", 1);
+  transparent_crc(radXKZCB, "radXKZCB", 1);
+  transparent_crc(YO3eyl58, "YO3eyl58", 1);
+  transparent_crc(hp1VbFYN, "hp1VbFYN", 1);
+  transparent_crc(q1B7pgSr, "q1B7pgSr", 1);
+  transparent_crc(CJsX9aYN, "CJsX9aYN", 1);
+  transparent_crc(NT1S6FjD, "NT1S6FjD", 1);
+  transparent_crc(nr4qKZSh, "nr4qKZSh", 1);
+  transparent_crc(_gFT3elR, "_gFT3elR", 1);
+  transparent_crc(AykDiWKq, "AykDiWKq", 1);
+  transparent_crc(eT3hMjm9, "eT3hMjm9", 1);
+  transparent_crc(AZ2DxjNB, "AZ2DxjNB", 1);
+  transparent_crc(mKTqB3Cs, "mKTqB3Cs", 1);
+  transparent_crc(VzuBOt9Q, "VzuBOt9Q", 1);
+  transparent_crc(TqkXSH9u, "TqkXSH9u", 1);
+  transparent_crc(D_M2cCJt, "D_M2cCJt", 1);
+  transparent_crc(WdqsiK6T, "WdqsiK6T", 1);
+  transparent_crc(_CtTGZsI, "_CtTGZsI", 1);
+  transparent_crc(TsMq1b7Y, "TsMq1b7Y", 1);
+  transparent_crc(ylPVg5Lt, "ylPVg5Lt", 1);
+  transparent_crc(SxrCbtIW, "SxrCbtIW", 1);
+  transparent_crc(nlwaxt3c, "nlwaxt3c", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return 0;
+}
+

@@ -1,0 +1,295 @@
+=====================
+Number of iterations:1
+File coverage:3419
+Line coverage:97617
+Time consuming:13.828246831893921
+=====================
+Number of iterations:2
+File coverage:3419
+Line coverage:98893
+Time consuming:31.026588439941406
+=====================
+Number of iterations:3
+File coverage:3420
+Line coverage:119476
+Time consuming:184.00451350212097
+=====================
+Number of iterations:4
+File coverage:3421
+Line coverage:121844
+Time consuming:202.75416946411133
+=====================
+Number of iterations:5
+File coverage:3422
+Line coverage:122858
+Time consuming:220.33064460754395
+=====================
+Number of iterations:6
+File coverage:3422
+Line coverage:123019
+Time consuming:240.51561570167542
+=====================
+Number of iterations:7
+File coverage:3422
+Line coverage:123023
+Time consuming:264.78278517723083
+=====================
+Number of iterations:8
+File coverage:3422
+Line coverage:123027
+Time consuming:289.4315667152405
+=====================
+Number of iterations:9
+File coverage:3422
+Line coverage:123748
+Time consuming:399.69731855392456
+=====================
+Number of iterations:10
+File coverage:3422
+Line coverage:123885
+Time consuming:416.9214527606964
+=====================
+Number of iterations:11
+File coverage:3422
+Line coverage:124489
+Time consuming:442.5587782859802
+=====================
+Number of iterations:12
+File coverage:3422
+Line coverage:124526
+Time consuming:550.2413511276245
+=====================
+Number of iterations:13
+File coverage:3422
+Line coverage:124987
+Time consuming:674.8606033325195
+=====================
+Number of iterations:14
+File coverage:3422
+Line coverage:125485
+Time consuming:741.726199388504
+=====================
+Number of iterations:15
+File coverage:3422
+Line coverage:125816
+Time consuming:768.5648980140686
+=====================
+Number of iterations:16
+File coverage:3422
+Line coverage:128125
+Time consuming:1546.2719631195068
+=====================
+Number of iterations:17
+File coverage:3422
+Line coverage:128854
+Time consuming:1704.817274093628
+=====================
+Number of iterations:18
+File coverage:3422
+Line coverage:129509
+Time consuming:1790.330945968628
+=====================
+Number of iterations:19
+File coverage:3422
+Line coverage:129640
+Time consuming:1821.1000351905823
+=====================
+Number of iterations:20
+File coverage:3422
+Line coverage:129658
+Time consuming:1855.945986032486
+=====================
+Number of iterations:21
+File coverage:3422
+Line coverage:129688
+Time consuming:1893.1008563041687
+=====================
+Number of iterations:22
+File coverage:3422
+Line coverage:129688
+Time consuming:3139.0073294639587
+=====================
+Number of iterations:23
+File coverage:3422
+Line coverage:129775
+Time consuming:3236.0367407798767
+=====================
+Number of iterations:24
+File coverage:3422
+Line coverage:129775
+Time consuming:3292.4427983760834
+=====================
+Number of iterations:25
+File coverage:3422
+Line coverage:129776
+Time consuming:3340.622179746628
+=====================
+Number of iterations:26
+File coverage:3422
+Line coverage:130237
+Time consuming:3720.7421877384186
+=====================
+Number of iterations:27
+File coverage:3422
+Line coverage:130293
+Time consuming:3767.862236261368
+=====================
+Number of iterations:28
+File coverage:3422
+Line coverage:130294
+Time consuming:3819.147545337677
+=====================
+Number of iterations:29
+File coverage:3422
+Line coverage:130294
+Time consuming:3867.9756214618683
+=====================
+Number of iterations:30
+File coverage:3424
+Line coverage:130305
+Time consuming:3918.039187669754
+=====================
+Number of iterations:31
+File coverage:3424
+Line coverage:130356
+Time consuming:3969.0421953201294
+=====================
+Number of iterations:32
+File coverage:3424
+Line coverage:130372
+Time consuming:4026.540449619293
+=====================
+Number of iterations:33
+File coverage:3424
+Line coverage:130434
+Time consuming:4113.891185760498
+=====================
+Number of iterations:34
+File coverage:3424
+Line coverage:130440
+Time consuming:4427.352892160416
+=====================
+Number of iterations:35
+File coverage:3424
+Line coverage:130455
+Time consuming:4501.057869195938
+=====================
+Number of iterations:36
+File coverage:3424
+Line coverage:130457
+Time consuming:4564.4488735198975
+=====================
+Number of iterations:37
+File coverage:3424
+Line coverage:130844
+Time consuming:5215.365073919296
+=====================
+Number of iterations:38
+File coverage:3424
+Line coverage:130891
+Time consuming:5298.346186161041
+=====================
+Number of iterations:39
+File coverage:3424
+Line coverage:130954
+Time consuming:5544.118449449539
+=====================
+Number of iterations:40
+File coverage:3424
+Line coverage:130954
+Time consuming:7256.638636112213
+=====================
+Number of iterations:41
+File coverage:3424
+Line coverage:131001
+Time consuming:7374.138294458389
+=====================
+Number of iterations:42
+File coverage:3424
+Line coverage:131068
+Time consuming:7479.081258296967
+=====================
+Number of iterations:43
+File coverage:3424
+Line coverage:131068
+Time consuming:7553.384283781052
+=====================
+Number of iterations:44
+File coverage:3424
+Line coverage:131103
+Time consuming:7677.288430452347
+=====================
+Number of iterations:45
+File coverage:3424
+Line coverage:131103
+Time consuming:10538.349289894104
+=====================
+Number of iterations:46
+File coverage:3424
+Line coverage:131155
+Time consuming:10863.208061695099
+=====================
+Number of iterations:47
+File coverage:3424
+Line coverage:131161
+Time consuming:10955.992698907852
+=====================
+Number of iterations:48
+File coverage:3424
+Line coverage:131406
+Time consuming:11117.908601522446
+=====================
+Number of iterations:49
+File coverage:3424
+Line coverage:131459
+Time consuming:11297.794152259827
+=====================
+Number of iterations:50
+File coverage:3428
+Line coverage:131773
+Time consuming:11408.17554140091
+=====================
+Number of iterations:51
+File coverage:3428
+Line coverage:131797
+Time consuming:11521.209261894226
+=====================
+Number of iterations:52
+File coverage:3428
+Line coverage:131853
+Time consuming:11624.091056108475
+=====================
+Number of iterations:53
+File coverage:3428
+Line coverage:131853
+Time consuming:11708.67708158493
+=====================
+Number of iterations:54
+File coverage:3428
+Line coverage:131853
+Time consuming:11799.212773323059
+=====================
+Number of iterations:55
+File coverage:3428
+Line coverage:132182
+Time consuming:12983.367194652557
+=====================
+Number of iterations:56
+File coverage:3428
+Line coverage:132192
+Time consuming:13088.372582435608
+=====================
+Number of iterations:57
+File coverage:3428
+Line coverage:132220
+Time consuming:13160.337200164795
+=====================
+Number of iterations:58
+File coverage:3428
+Line coverage:132227
+Time consuming:13244.669901132584
+=====================
+Number of iterations:59
+File coverage:3428
+Line coverage:132227
+Time consuming:13411.864649295807

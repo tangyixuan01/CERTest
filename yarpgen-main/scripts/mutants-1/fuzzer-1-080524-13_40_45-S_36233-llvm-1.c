@@ -1,0 +1,52 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-for-snippet -> insert-assignment-snippet
+
+int printf(const char *, ...);
+int a = 1;
+int *b = &a;
+int *c = &a;
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int ZFCApVcq = -1771239692;
+  signed gOtWpKZM = 0;
+  unsigned wyYfA2Br = 4294967295U;
+  char nOLe75Zl = (signed char)127;
+  int o3WnVJiC = -2147483648;
+  int kCywjL6W = -2147483648;
+  int TpAS4Vex = -2147483648;
+  int d;
+  int e;
+  for (e = 0; e < 2; e++)
+  {
+    for (; o3WnVJiC < 2; o3WnVJiC += 2)
+    {
+      for (TpAS4Vex = 0; TpAS4Vex < 1; TpAS4Vex++)
+        if (o3WnVJiC < 1)
+        kCywjL6W = 0;
+
+      for (; kCywjL6W < 1; kCywjL6W++)
+        ;
+
+    }
+
+    d = *b;
+    *c = d && e;
+  }
+
+  printf("%d\n", a);
+  transparent_crc(TpAS4Vex, "TpAS4Vex", 1);
+  transparent_crc(kCywjL6W, "kCywjL6W", 1);
+  transparent_crc(o3WnVJiC, "o3WnVJiC", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  wyYfA2Br = ZFCApVcq || (nOLe75Zl & gOtWpKZM);
+  transparent_crc(nOLe75Zl, "nOLe75Zl", 1);
+  transparent_crc(wyYfA2Br, "wyYfA2Br", 1);
+  transparent_crc(gOtWpKZM, "gOtWpKZM", 1);
+  transparent_crc(ZFCApVcq, "ZFCApVcq", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return 0;
+}
+

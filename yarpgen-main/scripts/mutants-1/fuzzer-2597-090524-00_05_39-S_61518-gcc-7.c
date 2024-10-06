@@ -1,0 +1,156 @@
+#include "/home/yixuan/csmith/runtime/csmith.h"
+
+// insert-if-snippet -> insert-switch-snippet -> insert-switch-snippet -> insert-assignment-snippet -> insert-assignment-snippet -> insert-if-snippet -> insert-switch-snippet -> insert-assignment-snippet
+
+int a;
+int b;
+int c[1];
+int d;
+int e;
+int f;
+void fn1()
+{
+  int  EcF5WnUP = -906740747;
+  int * RqSe30kh = &EcF5WnUP;
+  unsigned char DKUANxf_ = (unsigned char)40;
+  transparent_crc(DKUANxf_, "DKUANxf_", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  switch (DKUANxf_)
+  {
+    case 0x95:
+      *RqSe30kh = 0x01;
+      break;
+
+    case 0x80:
+
+    case 0x81:
+
+    case 0x82:
+      *RqSe30kh = 0x00;
+      break;
+
+    default:
+      *RqSe30kh = 0x05;
+      break;
+
+  }
+
+  for (; d < 1; d++)
+  {
+    if (b)
+    {
+      a = (e++) && f;
+      b = f;
+    }
+    c[b] = 0;
+  }
+
+}
+
+int main()
+{
+  platform_main_begin();
+  crc32_gentab();
+  int tk6AUafE = 2147483647;
+  int NXRe8trl = -1408138667;
+  int dCYtwUvA = -1013305907;
+  int z_kaN39g = -1807981219;
+  int RKGHlJ3u = -1626581444;
+  int qxJEnhMi = 1698647294;
+  int lvQ29AIm = 1738826526;
+  int ajtk_CZK = 2147483647;
+  int YwkXMNRy = -1255828344;
+  int HdskvfB3 = 2147483647;
+  int HlEyoY6e = 946580803;
+  int  HEvIoQ7O = -1798371691;
+  int * AT9pNlmX = &HEvIoQ7O;
+  unsigned short Z7y8iDcE = (unsigned short)65535;
+  unsigned int vcI3qaZV = 2103407660U;
+  dCYtwUvA = z_kaN39g && ((lvQ29AIm && RKGHlJ3u) | ((qxJEnhMi = RKGHlJ3u) == (tk6AUafE % NXRe8trl)));
+  int  qdYhxbPU = -2147483648;
+  int * hcLUR1FM = &qdYhxbPU;
+  unsigned char fbcdnH9Y = (unsigned char)255;
+  int  sJ3nK9rD = 2147483647;
+  int * nxUEA9uq = &sJ3nK9rD;
+  unsigned char myerh8uZ = (unsigned char)0;
+  int CRQlzZvT = -2147483648;
+  int FdyjklKc = 2147483647;
+  int w8M1t2WT = -2147483648;
+  fn1();
+  if (!w8M1t2WT)
+  {
+    w8M1t2WT = CRQlzZvT;
+    FdyjklKc = (CRQlzZvT == 0) ? (1) : (1 % CRQlzZvT);
+    if (ajtk_CZK)
+      HdskvfB3 |= YwkXMNRy;
+    if (FdyjklKc)
+      w8M1t2WT = 0;
+  }
+  if (e != 0)
+  {
+    __builtin_abort();
+    HlEyoY6e = ((char) HlEyoY6e) + 1;
+  }
+  switch (myerh8uZ)
+  {
+    case 0x95:
+      *nxUEA9uq = 0x01;
+      break;
+
+    case 0x80:
+
+    case 0x81:
+
+    case 0x82:
+      *nxUEA9uq = 0x00;
+      break;
+
+    default:
+      *nxUEA9uq = 0x05;
+      break;
+
+    switch (fbcdnH9Y)
+    {
+      case 0x95:
+        *hcLUR1FM = 0x01;
+        break;
+
+      case 0x80:
+
+      case 0x81:
+
+      case 0x82:
+        *hcLUR1FM = 0x00;
+        break;
+
+      *AT9pNlmX = Z7y8iDcE | vcI3qaZV;
+      default:
+        *hcLUR1FM = 0x05;
+        break;
+
+    }
+
+  }
+
+  transparent_crc(w8M1t2WT, "w8M1t2WT", 1);
+  transparent_crc(FdyjklKc, "FdyjklKc", 1);
+  transparent_crc(CRQlzZvT, "CRQlzZvT", 1);
+  transparent_crc(myerh8uZ, "myerh8uZ", 1);
+  transparent_crc(fbcdnH9Y, "fbcdnH9Y", 1);
+  transparent_crc(vcI3qaZV, "vcI3qaZV", 1);
+  transparent_crc(Z7y8iDcE, "Z7y8iDcE", 1);
+  transparent_crc(HlEyoY6e, "HlEyoY6e", 1);
+  transparent_crc(HdskvfB3, "HdskvfB3", 1);
+  transparent_crc(YwkXMNRy, "YwkXMNRy", 1);
+  transparent_crc(ajtk_CZK, "ajtk_CZK", 1);
+  transparent_crc(lvQ29AIm, "lvQ29AIm", 1);
+  transparent_crc(qxJEnhMi, "qxJEnhMi", 1);
+  transparent_crc(RKGHlJ3u, "RKGHlJ3u", 1);
+  transparent_crc(z_kaN39g, "z_kaN39g", 1);
+  transparent_crc(dCYtwUvA, "dCYtwUvA", 1);
+  transparent_crc(NXRe8trl, "NXRe8trl", 1);
+  transparent_crc(tk6AUafE, "tk6AUafE", 1);
+  platform_main_end(crc32_context ^ 0xFFFFFFFFUL, 0);
+  return 0;
+}
+

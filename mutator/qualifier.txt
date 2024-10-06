@@ -1,0 +1,4 @@
+volatile
+const
+restrict
+_Atomic

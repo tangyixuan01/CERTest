@@ -1,0 +1,2 @@
+//
+sym = sym->next;

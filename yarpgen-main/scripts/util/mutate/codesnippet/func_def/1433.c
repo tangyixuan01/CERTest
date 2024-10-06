@@ -1,0 +1,13 @@
+//b:int;a:unsigned
+int main()
+{
+  int c = ~a;
+  unsigned d = c - 10;
+  if (d > c)
+    c = 20;
+  b = -(c | 0);
+  if (b > (-8))
+    __builtin_abort();
+  return 0;
+}
+
