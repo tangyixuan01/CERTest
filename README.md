@@ -50,9 +50,7 @@ apt install gcc-5 gcc-6 gcc-7 gcc-11
 
 ## Usage
 
-We use ``yarpgen`` to collect seed programs in the ``yarpgen-programs`` folder.
-
-Building ``yarpgen`` is trivial. All you have to do is to use cmake:
+We use ``yarpgen`` to collect seed programs in the ``yarpgen-programs`` folder. Using cmake to build ``yarpgen``:
 
 ```bash
 mkdir build
