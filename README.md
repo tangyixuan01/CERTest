@@ -4,7 +4,7 @@ Welcome to the homepage of CERTest, the first effort leveraging the mutation con
 
 ## Download
 ### 1. Install Git LFS
-Since there are large files in the code, we recommend installing Git LFS to clone. You can choose the appropriate installation method according to different operating systems:
+Since there are large files in the code, we recommend installing Git LFS to clone. You can choose the appropriate installation according to operating systems:
 - **macOS**: use Homebrew：
   ```bash
   brew install git-lfs
@@ -42,7 +42,7 @@ pip install sklearn,pyclustering,libclang
 apt install clang-6 clang-9 clang-10
 apt install gcc-5 gcc-6 gcc-7 gcc-11
 ```
-* word2vec-google: save models in the ``model`` folder
+* word2vec-google: download models and save in the ``model`` folder
 
 [word2vec-google-news-300.model](https://huggingface.co/fse/word2vec-google-news-300/tree/main)
 
@@ -50,7 +50,7 @@ apt install gcc-5 gcc-6 gcc-7 gcc-11
 
 ## Usage
 
-Before running CERTest, we need to collect seed programs in the ``yarpgen-programs`` folder.
+We use ``yarpgen`` to collect seed programs in the ``yarpgen-programs`` folder.
 
 Building ``yarpgen`` is trivial. All you have to do is to use cmake:
 
